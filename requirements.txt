@@ -1,0 +1,10 @@
+# Streamlit app core
+streamlit==1.37.1
+requests>=2.31
+
+# pandas: choose version based on your Python
+pandas>=2.2; python_version >= "3.9"
+pandas>=1.5,<2.2; python_version < "3.9"
+
+# Charts
+plotly>=5.22
